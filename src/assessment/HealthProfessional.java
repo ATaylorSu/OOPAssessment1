@@ -1,5 +1,7 @@
+package assessment;
+
 /**
- * Base class: HealthProfessional
+ * Base class: assessment.HealthProfessional
  * Function: Encapsulate the common attributes and behaviors of all health professionals, providing inheritance basis for subclasses
  */
 public class HealthProfessional {

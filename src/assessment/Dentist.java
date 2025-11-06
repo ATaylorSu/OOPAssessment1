@@ -1,6 +1,10 @@
+package assessment;
+
+import assessment.HealthProfessional;
+
 /**
- * Subclass: Dentist
- * Inherited from: HealthProfessional
+ * Subclass: assessment.Dentist
+ * Inherited from: assessment.HealthProfessional
  */
 public class Dentist extends HealthProfessional {
     private String specializedField;
@@ -22,7 +26,7 @@ public class Dentist extends HealthProfessional {
 
     // 3. Printing details method
     public void printDentistDetails() {
-        System.out.println("=== Type of Health Professional: Dentist ===");
+        System.out.println("=== Type of Health Professional: assessment.Dentist ===");
         super.printDetails(); // Call the parent class method to print basic information
         System.out.println("Specialized field：" + this.specializedField);
         System.out.println("Can implant surgery be performed：" + (this.canDoImplant ? "Yes" : "No"));

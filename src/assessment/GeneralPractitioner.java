@@ -1,6 +1,10 @@
+package assessment;
+
+import assessment.HealthProfessional;
+
 /**
  * Subclass: General Practitioner
- * Inherited from: HealthProfessional
+ * Inherited from: assessment.HealthProfessional
  */
 public class GeneralPractitioner extends HealthProfessional {
     private int maxDailyPatients;

@@ -1,5 +1,7 @@
+package assessment;
+
 /**
- * Class：ClassObjectDemo
+ * Class：assessment.ClassObjectDemo
  */
 public class ClassObjectDemo {
     // ===================== Part 3 – Using classes and objects =====================
