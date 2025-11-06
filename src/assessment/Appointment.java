@@ -2,7 +2,7 @@ package assessment;
 
 
 /**
- * Clasee：Appointment（预约）
+ * Clasee：Appointment
  * Function: Encapsulate all information of a single appointment (patient, time slot, selected doctor)
  */
 public class Appointment {
